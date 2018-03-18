@@ -3,7 +3,7 @@ import React from 'react'
 class StorePicker extends React.Component {
     render(){
         return (
-            <form className="Store-Selector">
+            <form className="store-selector">
             <h2>Please Pick A Store</h2>
             <input type ="text" required placeholder="store here"></input>
             <button type ="submit">Submit</button>
